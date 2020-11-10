@@ -11,7 +11,6 @@
 		A693A3832556F3150047D51D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693A3822556F3150047D51D /* ContentView.swift */; };
 		A693A3852556F3180047D51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A693A3842556F3180047D51D /* Assets.xcassets */; };
 		A693A3882556F3180047D51D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A693A3872556F3180047D51D /* Preview Assets.xcassets */; };
-		A693A3912556F3D40047D51D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693A3902556F3D40047D51D /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		A693A3842556F3180047D51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A693A3872556F3180047D51D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A693A3892556F3180047D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A693A3902556F3D40047D51D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				A693A3802556F3150047D51D /* SwiftUIStateApp.swift */,
-				A693A3902556F3D40047D51D /* ButtonView.swift */,
 				A693A3822556F3150047D51D /* ContentView.swift */,
 				A693A3842556F3180047D51D /* Assets.xcassets */,
 				A693A3892556F3180047D51D /* Info.plist */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A693A3912556F3D40047D51D /* ButtonView.swift in Sources */,
 				A693A3832556F3150047D51D /* ContentView.swift in Sources */,
 				A693A3812556F3150047D51D /* SwiftUIStateApp.swift in Sources */,
 			);
