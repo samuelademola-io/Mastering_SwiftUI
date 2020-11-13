@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A612CD6E255E1D74002924D7 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612CD6D255E1D74002924D7 /* TableView.swift */; };
+		A612CD71255E2EF7002924D7 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612CD70255E2EF7002924D7 /* ShapesView.swift */; };
 		A6E9F996255B02DA006EABEF /* SwiftUIShapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F995255B02DA006EABEF /* SwiftUIShapeApp.swift */; };
 		A6E9F998255B02DA006EABEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F997255B02DA006EABEF /* ContentView.swift */; };
 		A6E9F99A255B02DE006EABEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E9F999255B02DE006EABEF /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		A612CD6D255E1D74002924D7 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		A612CD70255E2EF7002924D7 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		A6E9F992255B02DA006EABEF /* SwiftUIShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E9F995255B02DA006EABEF /* SwiftUIShapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIShapeApp.swift; sourceTree = "<group>"; };
 		A6E9F997255B02DA006EABEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				A6E9F995255B02DA006EABEF /* SwiftUIShapeApp.swift */,
+				A612CD70255E2EF7002924D7 /* ShapesView.swift */,
 				A612CD6D255E1D74002924D7 /* TableView.swift */,
 				A6E9F9AB255B09A8006EABEF /* ChartView.swift */,
 				A6E9F9A5255B04EB006EABEF /* SquareView.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A612CD71255E2EF7002924D7 /* ShapesView.swift in Sources */,
 				A6E9F9A6255B04EB006EABEF /* SquareView.swift in Sources */,
 				A612CD6E255E1D74002924D7 /* TableView.swift in Sources */,
 				A6E9F998255B02DA006EABEF /* ContentView.swift in Sources */,
