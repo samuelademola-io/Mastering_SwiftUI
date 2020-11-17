@@ -13,6 +13,7 @@
 		A612CD87255E39BD002924D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A612CD86255E39BD002924D7 /* Preview Assets.xcassets */; };
 		A6DF5FE3255F573900A4C9D6 /* AnimationOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF5FE2255F573900A4C9D6 /* AnimationOneView.swift */; };
 		A6DF5FE6255F818C00A4C9D6 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF5FE5255F818C00A4C9D6 /* LoadingIndicatorView.swift */; };
+		A6DF5FE9255F890B00A4C9D6 /* ProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF5FE8255F890B00A4C9D6 /* ProgressIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A612CD88255E39BD002924D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6DF5FE2255F573900A4C9D6 /* AnimationOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOneView.swift; sourceTree = "<group>"; };
 		A6DF5FE5255F818C00A4C9D6 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		A6DF5FE8255F890B00A4C9D6 /* ProgressIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A612CD7F255E39BB002924D7 /* SwiftUIAnimationApp.swift */,
+				A6DF5FE8255F890B00A4C9D6 /* ProgressIndicatorView.swift */,
 				A6DF5FE5255F818C00A4C9D6 /* LoadingIndicatorView.swift */,
 				A6DF5FE2255F573900A4C9D6 /* AnimationOneView.swift */,
 				A612CD81255E39BB002924D7 /* ContentView.swift */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A612CD82255E39BB002924D7 /* ContentView.swift in Sources */,
+				A6DF5FE9255F890B00A4C9D6 /* ProgressIndicatorView.swift in Sources */,
 				A6DF5FE3255F573900A4C9D6 /* AnimationOneView.swift in Sources */,
 				A612CD80255E39BB002924D7 /* SwiftUIAnimationApp.swift in Sources */,
 				A6DF5FE6255F818C00A4C9D6 /* LoadingIndicatorView.swift in Sources */,

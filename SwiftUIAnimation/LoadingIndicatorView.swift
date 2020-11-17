@@ -12,6 +12,7 @@ struct LoadingIndicatorView: View {
     @State private var isLoading = false
     
     var body: some View {
+        
         VStack {
             Circle()
                 .trim(from: 0, to: 0.7)
