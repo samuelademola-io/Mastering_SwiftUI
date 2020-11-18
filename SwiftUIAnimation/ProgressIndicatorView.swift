@@ -8,8 +8,35 @@
 import SwiftUI
 
 struct ProgressIndicatorView: View {
+    
+    @State private var progress: CGFloat = 0.0
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Text("\(Int(progress * 100))%")
+                .font(.system(.title, design: .rounded))
+                .bold()
+            
+            Circle()
+                .stroke(Color(.systemGray5), lineWidth: 10)
+                .frame(width: 150, height: 150)
+            
+            Circle()
+                .trim(from: 0, to: progress)
+                .stroke(Color.green, lineWidth: 10)
+                .frame(width: 150, height: 150)
+                .rotationEffect(Angle(degrees: -90))
+        }
+        .onAppear() {
+            Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
+                self.progress += 0.05
+                print(self.progress)
+                if self.progress >= 1.0 {
+                    timer.invalidate()
+                }
+            }
+        }
     }
 }
 

@@ -11,6 +11,9 @@
 		A612CD82255E39BB002924D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612CD81255E39BB002924D7 /* ContentView.swift */; };
 		A612CD84255E39BD002924D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A612CD83255E39BD002924D7 /* Assets.xcassets */; };
 		A612CD87255E39BD002924D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A612CD86255E39BD002924D7 /* Preview Assets.xcassets */; };
+		A69F8D312564C9EE00771CF4 /* LoadingDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F8D302564C9EE00771CF4 /* LoadingDotView.swift */; };
+		A69F8D342564CD4A00771CF4 /* VoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F8D332564CD4A00771CF4 /* VoiceButtonView.swift */; };
+		A69F8D372564D12900771CF4 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F8D362564D12900771CF4 /* TransitionView.swift */; };
 		A6DF5FE3255F573900A4C9D6 /* AnimationOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF5FE2255F573900A4C9D6 /* AnimationOneView.swift */; };
 		A6DF5FE6255F818C00A4C9D6 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF5FE5255F818C00A4C9D6 /* LoadingIndicatorView.swift */; };
 		A6DF5FE9255F890B00A4C9D6 /* ProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF5FE8255F890B00A4C9D6 /* ProgressIndicatorView.swift */; };
@@ -23,6 +26,9 @@
 		A612CD83255E39BD002924D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A612CD86255E39BD002924D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A612CD88255E39BD002924D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69F8D302564C9EE00771CF4 /* LoadingDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDotView.swift; sourceTree = "<group>"; };
+		A69F8D332564CD4A00771CF4 /* VoiceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceButtonView.swift; sourceTree = "<group>"; };
+		A69F8D362564D12900771CF4 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		A6DF5FE2255F573900A4C9D6 /* AnimationOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOneView.swift; sourceTree = "<group>"; };
 		A6DF5FE5255F818C00A4C9D6 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
 		A6DF5FE8255F890B00A4C9D6 /* ProgressIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				A612CD7F255E39BB002924D7 /* SwiftUIAnimationApp.swift */,
+				A69F8D362564D12900771CF4 /* TransitionView.swift */,
+				A69F8D332564CD4A00771CF4 /* VoiceButtonView.swift */,
+				A69F8D302564C9EE00771CF4 /* LoadingDotView.swift */,
 				A6DF5FE8255F890B00A4C9D6 /* ProgressIndicatorView.swift */,
 				A6DF5FE5255F818C00A4C9D6 /* LoadingIndicatorView.swift */,
 				A6DF5FE2255F573900A4C9D6 /* AnimationOneView.swift */,
@@ -148,8 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A612CD82255E39BB002924D7 /* ContentView.swift in Sources */,
+				A69F8D312564C9EE00771CF4 /* LoadingDotView.swift in Sources */,
 				A6DF5FE9255F890B00A4C9D6 /* ProgressIndicatorView.swift in Sources */,
 				A6DF5FE3255F573900A4C9D6 /* AnimationOneView.swift in Sources */,
+				A69F8D342564CD4A00771CF4 /* VoiceButtonView.swift in Sources */,
+				A69F8D372564D12900771CF4 /* TransitionView.swift in Sources */,
 				A612CD80255E39BB002924D7 /* SwiftUIAnimationApp.swift in Sources */,
 				A6DF5FE6255F818C00A4C9D6 /* LoadingIndicatorView.swift in Sources */,
 			);
